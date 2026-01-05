@@ -534,7 +534,7 @@ int bus_status()
         {
             found=1;
             printf("\n========================================\n");
-            printf("***********BUS %d DETAILS***********\n\n",bus_number[i]);
+            printf("***********BUS %d DETAILS***********",bus_number[i]);
             printf("\n========================================\n");
             printf("Bus Number       : %d\n",bus_number[i]);
             printf("Source City      : %s\n",source[i]);
